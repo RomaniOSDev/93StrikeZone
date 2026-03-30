@@ -3,33 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		744B247F2F7A6E6300F2A8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24682F7A6E6300F2A8EB /* AppDelegate.swift */; };
+		744B24802F7A6E6300F2A8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B246A2F7A6E6300F2A8EB /* ContentView.swift */; };
+		744B24812F7A6E6300F2A8EB /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B246B2F7A6E6300F2A8EB /* GameDetailView.swift */; };
+		744B24822F7A6E6300F2A8EB /* GamesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B246C2F7A6E6300F2A8EB /* GamesListView.swift */; };
+		744B24832F7A6E6300F2A8EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B246D2F7A6E6300F2A8EB /* HomeView.swift */; };
+		744B24842F7A6E6300F2A8EB /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24712F7A6E6300F2A8EB /* LocationsView.swift */; };
+		744B24852F7A6E6300F2A8EB /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24742F7A6E6300F2A8EB /* NewGameView.swift */; };
+		744B24862F7A6E6300F2A8EB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24752F7A6E6300F2A8EB /* OnboardingView.swift */; };
+		744B24872F7A6E6300F2A8EB /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24762F7A6E6300F2A8EB /* PlayersView.swift */; };
+		744B24882F7A6E6300F2A8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24772F7A6E6300F2A8EB /* SceneDelegate.swift */; };
+		744B24892F7A6E6300F2A8EB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24782F7A6E6300F2A8EB /* SettingsView.swift */; };
+		744B248A2F7A6E6300F2A8EB /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24792F7A6E6300F2A8EB /* StatsView.swift */; };
+		744B248B2F7A6E6300F2A8EB /* StrikeZoneComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B247A2F7A6E6300F2A8EB /* StrikeZoneComponents.swift */; };
+		744B248C2F7A6E6300F2A8EB /* StrikeZoneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B247B2F7A6E6300F2A8EB /* StrikeZoneModels.swift */; };
+		744B248D2F7A6E6300F2A8EB /* StrikeZoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B247C2F7A6E6300F2A8EB /* StrikeZoneViewModel.swift */; };
+		744B248E2F7A6E6300F2A8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B247D2F7A6E6300F2A8EB /* ViewController.swift */; };
+		744B248F2F7A6E6300F2A8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B24692F7A6E6300F2A8EB /* Assets.xcassets */; };
+		744B24912F7A6E6300F2A8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B24702F7A6E6300F2A8EB /* LaunchScreen.storyboard */; };
+		744B24922F7A6E6300F2A8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B24732F7A6E6300F2A8EB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		744B24682F7A6E6300F2A8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		744B24692F7A6E6300F2A8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		744B246A2F7A6E6300F2A8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		744B246B2F7A6E6300F2A8EB /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		744B246C2F7A6E6300F2A8EB /* GamesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListView.swift; sourceTree = "<group>"; };
+		744B246D2F7A6E6300F2A8EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		744B246E2F7A6E6300F2A8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744B246F2F7A6E6300F2A8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		744B24712F7A6E6300F2A8EB /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		744B24722F7A6E6300F2A8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		744B24742F7A6E6300F2A8EB /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		744B24752F7A6E6300F2A8EB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		744B24762F7A6E6300F2A8EB /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		744B24772F7A6E6300F2A8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		744B24782F7A6E6300F2A8EB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		744B24792F7A6E6300F2A8EB /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		744B247A2F7A6E6300F2A8EB /* StrikeZoneComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeZoneComponents.swift; sourceTree = "<group>"; };
+		744B247B2F7A6E6300F2A8EB /* StrikeZoneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeZoneModels.swift; sourceTree = "<group>"; };
+		744B247C2F7A6E6300F2A8EB /* StrikeZoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeZoneViewModel.swift; sourceTree = "<group>"; };
+		744B247D2F7A6E6300F2A8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7493858B2F4DBC3E00624469 /* 93StrikeZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 93StrikeZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6C02C3BCBF4D25DB3ED2E8 /* Pods_93StrikeZone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_93StrikeZone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41B8879AE7649E668707732 /* Pods-93StrikeZone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-93StrikeZone.release.xcconfig"; path = "Target Support Files/Pods-93StrikeZone/Pods-93StrikeZone.release.xcconfig"; sourceTree = "<group>"; };
+		F4788347B6CA55DD492AC34F /* Pods-93StrikeZone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-93StrikeZone.debug.xcconfig"; path = "Target Support Files/Pods-93StrikeZone/Pods-93StrikeZone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7493859D2F4DBC3F00624469 /* Exceptions for "93StrikeZone" folder in "93StrikeZone" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7493858A2F4DBC3E00624469 /* 93StrikeZone */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7493858D2F4DBC3E00624469 /* 93StrikeZone */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7493859D2F4DBC3F00624469 /* Exceptions for "93StrikeZone" folder in "93StrikeZone" target */,
-			);
-			path = 93StrikeZone;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		749385882F4DBC3E00624469 /* Frameworks */ = {
@@ -42,11 +66,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60418C088608A01FFD8994F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE6C02C3BCBF4D25DB3ED2E8 /* Pods_93StrikeZone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		744B247E2F7A6E6300F2A8EB /* 93StrikeZone */ = {
+			isa = PBXGroup;
+			children = (
+				744B24682F7A6E6300F2A8EB /* AppDelegate.swift */,
+				744B24692F7A6E6300F2A8EB /* Assets.xcassets */,
+				744B246A2F7A6E6300F2A8EB /* ContentView.swift */,
+				744B246B2F7A6E6300F2A8EB /* GameDetailView.swift */,
+				744B246C2F7A6E6300F2A8EB /* GamesListView.swift */,
+				744B246D2F7A6E6300F2A8EB /* HomeView.swift */,
+				744B246E2F7A6E6300F2A8EB /* Info.plist */,
+				744B24702F7A6E6300F2A8EB /* LaunchScreen.storyboard */,
+				744B24712F7A6E6300F2A8EB /* LocationsView.swift */,
+				744B24732F7A6E6300F2A8EB /* Main.storyboard */,
+				744B24742F7A6E6300F2A8EB /* NewGameView.swift */,
+				744B24752F7A6E6300F2A8EB /* OnboardingView.swift */,
+				744B24762F7A6E6300F2A8EB /* PlayersView.swift */,
+				744B24772F7A6E6300F2A8EB /* SceneDelegate.swift */,
+				744B24782F7A6E6300F2A8EB /* SettingsView.swift */,
+				744B24792F7A6E6300F2A8EB /* StatsView.swift */,
+				744B247A2F7A6E6300F2A8EB /* StrikeZoneComponents.swift */,
+				744B247B2F7A6E6300F2A8EB /* StrikeZoneModels.swift */,
+				744B247C2F7A6E6300F2A8EB /* StrikeZoneViewModel.swift */,
+				744B247D2F7A6E6300F2A8EB /* ViewController.swift */,
+			);
+			path = 93StrikeZone;
+			sourceTree = "<group>";
+		};
 		749385822F4DBC3E00624469 = {
 			isa = PBXGroup;
 			children = (
-				7493858D2F4DBC3E00624469 /* 93StrikeZone */,
+				744B247E2F7A6E6300F2A8EB /* 93StrikeZone */,
 				7493858C2F4DBC3E00624469 /* Products */,
+				FF5F21AFB1860339310428BC /* Pods */,
+				60418C088608A01FFD8994F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +119,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FF5F21AFB1860339310428BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4788347B6CA55DD492AC34F /* Pods-93StrikeZone.debug.xcconfig */,
+				D41B8879AE7649E668707732 /* Pods-93StrikeZone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7493859E2F4DBC3F00624469 /* Build configuration list for PBXNativeTarget "93StrikeZone" */;
 			buildPhases = (
+				85B2635897A5C1208F9BB2A5 /* [CP] Check Pods Manifest.lock */,
 				749385872F4DBC3E00624469 /* Sources */,
 				749385882F4DBC3E00624469 /* Frameworks */,
 				749385892F4DBC3E00624469 /* Resources */,
@@ -73,12 +144,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7493858D2F4DBC3E00624469 /* 93StrikeZone */,
-			);
 			name = 93StrikeZone;
-			packageProductDependencies = (
-			);
 			productName = 93StrikeZone;
 			productReference = 7493858B2F4DBC3E00624469 /* 93StrikeZone.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +165,7 @@
 				};
 			};
 			buildConfigurationList = 749385862F4DBC3E00624469 /* Build configuration list for PBXProject "93StrikeZone" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +173,6 @@
 				Base,
 			);
 			mainGroup = 749385822F4DBC3E00624469;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7493858C2F4DBC3E00624469 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +187,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744B248F2F7A6E6300F2A8EB /* Assets.xcassets in Resources */,
+				744B24912F7A6E6300F2A8EB /* LaunchScreen.storyboard in Resources */,
+				744B24922F7A6E6300F2A8EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85B2635897A5C1208F9BB2A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-93StrikeZone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		749385872F4DBC3E00624469 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744B247F2F7A6E6300F2A8EB /* AppDelegate.swift in Sources */,
+				744B24802F7A6E6300F2A8EB /* ContentView.swift in Sources */,
+				744B24812F7A6E6300F2A8EB /* GameDetailView.swift in Sources */,
+				744B24822F7A6E6300F2A8EB /* GamesListView.swift in Sources */,
+				744B24832F7A6E6300F2A8EB /* HomeView.swift in Sources */,
+				744B24842F7A6E6300F2A8EB /* LocationsView.swift in Sources */,
+				744B24852F7A6E6300F2A8EB /* NewGameView.swift in Sources */,
+				744B24862F7A6E6300F2A8EB /* OnboardingView.swift in Sources */,
+				744B24872F7A6E6300F2A8EB /* PlayersView.swift in Sources */,
+				744B24882F7A6E6300F2A8EB /* SceneDelegate.swift in Sources */,
+				744B24892F7A6E6300F2A8EB /* SettingsView.swift in Sources */,
+				744B248A2F7A6E6300F2A8EB /* StatsView.swift in Sources */,
+				744B248B2F7A6E6300F2A8EB /* StrikeZoneComponents.swift in Sources */,
+				744B248C2F7A6E6300F2A8EB /* StrikeZoneModels.swift in Sources */,
+				744B248D2F7A6E6300F2A8EB /* StrikeZoneViewModel.swift in Sources */,
+				744B248E2F7A6E6300F2A8EB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		744B24702F7A6E6300F2A8EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744B246F2F7A6E6300F2A8EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		744B24732F7A6E6300F2A8EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744B24722F7A6E6300F2A8EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7493859F2F4DBC3F00624469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4788347B6CA55DD492AC34F /* Pods-93StrikeZone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +276,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 93StrikeZone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StrikeZone: Benravis ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-3StrikeZone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meh.str9k2z8n2b4nr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		749385A02F4DBC3F00624469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41B8879AE7649E668707732 /* Pods-93StrikeZone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +314,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 93StrikeZone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StrikeZone: Benravis ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-3StrikeZone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meh.str9k2z8n2b4nr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

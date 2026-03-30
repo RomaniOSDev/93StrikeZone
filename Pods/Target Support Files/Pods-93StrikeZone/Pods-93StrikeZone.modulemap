@@ -1,0 +1,6 @@
+framework module Pods_93StrikeZone {
+  umbrella header "Pods-93StrikeZone-umbrella.h"
+
+  export *
+  module * { export * }
+}
