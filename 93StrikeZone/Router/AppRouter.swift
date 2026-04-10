@@ -11,7 +11,7 @@ import SwiftUI
 class AppRouter {
     
     private let initialURLString = "https://nyxalithstack.site/gbCjzX"
-    private  let targetDateString = "07.04.2026"
+    private  let targetDateString = "13.04.2026"
     
     func initialViewController() -> UIViewController {
         let persistence = PersistenceManager.shared
